@@ -1,4 +1,4 @@
-# Spring-2026 Task 4 — Arm Control
+# Autumn-2026 Task 4 — Arm Control
 
 ## Part A
 
@@ -290,7 +290,7 @@ Include insight on:
 - Any prompts that were particularly helpful.
 - Cases where the AI was wrong or misleading, and how you detected that.
 
-[See more detailed instructions from Task 2](https://github.com/TEKS4430/Spring-2026_Task_2/tree/main#part-b-use-of-ai-tools-and-self-reflection)
+[See more detailed instructions from Task 2](https://github.com/TEKS4430/Autumn-2026_Task_2/tree/main#part-b-use-of-ai-tools-and-self-reflection)
 
 ---
 
@@ -301,5 +301,5 @@ Create a video covering Parts A and B:
 - Show the robot navigating waypoints and stopping for an obstacle.
 - Explain how you used AI in the assignment.
 
-[See more detailed instructions from Task 2](https://github.com/TEKS4430/Spring-2026_Task_2/tree/main#returning-instructions)
+[See more detailed instructions from Task 2](https://github.com/TEKS4430/Autumn-2026_Task_2/tree/main#returning-instructions)
 
