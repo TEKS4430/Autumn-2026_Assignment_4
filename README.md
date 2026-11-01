@@ -1,6 +1,6 @@
 # Autumn-2026 Assignment 4 — Arm Control
 
-## Part A
+## Part A: Studying and technical implementation — 4 points
 
 
 ### Overview
@@ -279,27 +279,111 @@ The provided `STATE_ANGLES` are approximate. **The arm may not reach the box exa
 
 
 
-## Part B: Use of AI tools and self-reflection
+---
 
-In part B, you will reflect on the new skills you have learned and analyze your own work and learning process. You will consider what technical skills you learned while completing part A, what tools you used, why you chose to use them, and what benefits or challenges were associated with their use.
+## Part B: Learning process, use of AI tools, and self-reflection — 4 points
 
-Include insight on:
-- What kind of challenges did you encounter while doing the assignment.
-- What did you learn while doing the assignment.
-- Which tools you used and for what purpose.
-- Any prompts that were particularly helpful.
-- Cases where the AI was wrong or misleading, and how you detected that.
+Part B is an equally important part of the assignment as the technical implementation in Part A. The purpose is to reflect on **what you learned, how you worked, and how AI or other tools and resources affected your learning and problem-solving process**.
 
-[See more detailed instructions from Task 2](https://github.com/TEKS4430/Autumn-2026_Task_2/tree/main#part-b-use-of-ai-tools-and-self-reflection)
+You are **not assessed based on how much AI you use**. You may use AI extensively, selectively, or not at all. Instead, you are assessed based on the quality of your reflection, your critical evaluation of your working and learning process, and your demonstrated understanding and ownership of the final solution.
+
+### If you did not use AI
+
+Using AI is **not required and does not affect the maximum number of points available**.
+
+If you chose not to use AI, explain why and focus instead on **how you learned and solved the assignment independently**. Describe the resources, tools, documentation, experimentation, debugging, discussions, or other approaches you used to understand the technical concepts and overcome problems.
+
+The same assessment criteria apply: the important thing is to demonstrate and critically reflect on **how you worked, what you learned, and how you evaluated the correctness of your solution**.
+
+In your presentation, address the following four areas:
+
+### 1. What did you learn?
+
+Describe the most important things you learned while completing Part A.
+
+Focus especially on your **technical learning**. For example, in this assignment you might discuss what you learned about sensor data, noise and drift, filtering, sensor fusion, ROS2 topics, or implementing and debugging the provided code.
+
+Do not simply describe what you did. Explain **what you understand now that you did not understand before the assignment**.
+
+**If you used AI:** Explain how AI helped you understand new concepts, code, technologies, or problems and how your understanding developed through this interaction.
+
+**If you did not use AI:** Explain how you developed this understanding. For example, did you study course materials or documentation, search for examples, experiment with the system, inspect code, discuss problems with others, or learn through trial and error?
+
+### 2. How did you solve problems and use AI, tools, and other resources?
+
+Describe **how you approached the assignment and solved the technical problems you encountered**.
+
+**If you used AI**, explain the significant ways in which AI contributed to your work. For each important use, consider:
+
+- what you were trying to accomplish or understand;
+- which tool and model you used;
+- why you decided to use AI for this particular purpose;
+- how you used it; and
+- how useful the result was.
+
+You do not need to report every individual prompt. Instead, focus on the **most important ways in which AI influenced your work**.
+
+You must nevertheless transparently identify the AI tools and models you used in Parts A and B, including the model/version and relevant mode or settings when this information is available.
+
+For example:
+
+> I used ChatGPT with GPT-X in thinking mode to understand why integrating a small constant gyroscope bias produces an increasing heading error. I then used it to help interpret the results produced by my implementation.
+
+**If you did not use AI:** Describe the corresponding problem-solving process. What resources or tools did you use instead? How did you find the information you needed? How did you approach debugging or unfamiliar technical concepts? Explain why you chose these approaches and how useful they were.
+
+### 3. Critically evaluate your tools and problem-solving process
+
+Choose at least **one concrete example of a problem, challenge, or learning situation** from the assignment and analyze how you addressed it.
+
+**If you used AI**, this could be a situation where AI:
+
+- significantly helped you;
+- produced an incomplete or incorrect answer;
+- suggested an approach that needed modification; or
+- provided information whose correctness you needed to verify.
+
+Explain what AI suggested, whether the suggestion was useful, **how you determined whether you could trust it**, and how you tested, modified, improved, or rejected the suggestion.
+
+**If you did not use AI:** Select a corresponding technical challenge and explain how you investigated and solved it. For example, describe how you used documentation, course materials, experimentation, debugging, testing, online resources, or discussions with others. Consider whether your initial approach worked, how you evaluated different alternatives, and how you verified that the final solution was correct.
+
+The purpose is to demonstrate that you can **critically evaluate information, tools, and proposed solutions rather than simply accepting them**.
+
+### 4. Reflect on your own learning and working process
+
+Finally, reflect on your overall experience and how you approached learning during the assignment.
+
+Consider questions such as:
+
+- What was the most difficult part of the assignment?
+- What did you understand better after completing it?
+- Which problem-solving or learning approaches worked particularly well?
+- Which approaches did not work well?
+- How did you verify that you understood the technical concepts rather than merely producing a working solution?
+- If you completed the assignment again, what would you do differently?
+
+**If you used AI:** Also consider whether AI made you more productive or helped you learn, whether it introduced additional problems or confusion, and whether there were situations where solving or studying something without AI was more useful.
+
+**If you did not use AI:** Reflect on how effective your chosen learning and problem-solving strategies were. Consider whether documentation, experimentation, debugging, course materials, discussions, or other resources supported your learning effectively and whether another approach could have made your work or learning more effective.
+
+Your reflection should demonstrate that **you understand and take responsibility for the work you submitted**, regardless of whether or how much AI contributed to the process.
 
 ---
 
+
 ## Returning instructions
 
-Create a video covering Parts A and B:
-- Demonstrate the environment running (Webots + ROS 2 launch).
-- Show the robot navigating waypoints and stopping for an obstacle.
-- Explain how you used AI in the assignment.
+The assignment must be submitted in video format. Create a video that reports Parts A and B, demonstrating that you have successfully set up the environment, explaining how you learned to use your codebase, and presenting your self-reflection as well as describing how you used AI in the assignment.
 
-[See more detailed instructions from Task 2](https://github.com/TEKS4430/Autumn-2026_Task_2/tree/main#returning-instructions)
+In the video, use software such as Microsoft Teams to record your screen while presenting and recording your voice. In the recording, you should demonstrate that your environment is running correctly and show the most essential parts of your codebase. In addition, you should use PowerPoint, Google Slides, or a similar tool to document Part B and present it in the video.
 
+This process will not only teach you how to present your work to others, but it will also help facilitate peer learning and support among students. Although in this first assignment there is only a small amount of technical implementation to report, you will learn the submission procedure that will be used for the rest of the assignments, which will be much more implementation-oriented.
+
+We recommend using Microsoft Teams, as it allows you to record both your screen and voice. The recordings are automatically uploaded to SharePoint, which makes it easy to share your recording later for the peer review assignment. Alternatively, you may use other software such as QuickTime Player or OBS to record your video and then upload the recording to SharePoint.
+
+**Important:** You must ensure that your recording is accessible to others who have the link. So, via Sharepoint user interface in your browser (see below) define the shared settings so that anyone who has the link can access the file for maximum number of days. Finally, you should ensure for example in privacy mode or another browser that the link is truly accessible without login.
+
+![create_sharelink](https://github.com/TEKS4430/Autumn-2026_Assignment_1/blob/main/screenshots/accessrights.png)
+
+<p align="center">
+<img src="https://github.com/TEKS4430/Autumn-2026_Assignment_1/blob/main/screenshots/link_settings.png" width=50% height=50%>    
+</p>
